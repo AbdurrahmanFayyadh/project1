@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/confirm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="shortcut icon" href="../images/warning.ico" type="image/x-icon">
+    <title>confirm</title>
+</head>
+<body>
+    <header>
+        <h1 class="animate__animated animate__flash">PAYMENT CONFIRMATION</h1>
+    </header>
+    <div class="form-container">
+        <form action="../thx.html" method="post">
+            <h2 class="animate__animated animate__flip judul">ABABIS</h2>
+            <h2 class="judul">$1</h2>
+            <div class="form-group">
+                <label for="nama">ID Card</label>
+                <input type="number" id="nama" max="99999999999999999" min="1111111111111111" required>
+            </div>
+
+            <div class="form-group">
+                <label for="jumlah">Quantity</label>
+                <input type="number" id="jumlah" max="12" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+           </div>
+
+            <div class="form-group">
+                <label for="telp">Phone</label>
+                <input type="number" id="telp" required>
+            </div>
+            <div class="form-group">
+                <label for="alamat">Address</label>
+                <textarea name="alamat" id="alamat" required></textarea>
+            </div>
+           <div class="akhir">
+                <button type="submit" class="ehm">order</button>
+                <button type="reset" class="emh">cancel</button>
+           </div>
+        </form>
+    </div>
+</body>
+</html>

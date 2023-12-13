@@ -1,0 +1,78 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 10em;
+    color: lightgray;
+}
+
+#et {
+    font-size: 20px
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-container {
+    width: 400px;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+input, select, textarea {
+    float: right;
+}
+
+.ehm {
+    background-color: blue;
+    color:antiquewhite;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 15em;
+    margin-top: 10px;
+}
+
+.emh {
+    background-color: red;
+    color:antiquewhite;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+.akhir {
+    text-align: center;
+}
+
+.judul {
+    color: #351c75;
+    font-size: 40px;
+}
